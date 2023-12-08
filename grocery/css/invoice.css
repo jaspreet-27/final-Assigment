@@ -1,0 +1,41 @@
+
+.invoice-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.invoice-header {
+  margin-bottom: 30px;
+}
+
+.invoice-details {
+  margin-bottom: 20px;
+}
+
+.item-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-list th, .item-list td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.item-list th {
+  background-color: #f4f4f4;
+}
+
+.total {
+  font-weight: bold;
+}
+/* nav */
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
+/* nav */

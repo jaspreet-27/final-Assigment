@@ -1,0 +1,70 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+img.card-img-top {
+    width: 209px;
+    max-width: 30%;
+}
+
+/* #productDetails {
+    display: none; 
+} */
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+#productDetails img {
+    max-width: 100%;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#productDetails .card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#productDetails .card-body {
+    padding: 30px;
+    display: list-item;
+}
+
+#productDetails h5 {
+    color: #343a40;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#productDetails p {
+    color: #6c757d;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#productDetails .btn-primary,
+#productDetails .btn-secondary {
+    width: 100%;
+    margin-top: 10px;
+}
+.btn-group{
+    display: inline-flex;
+}
+button.btn.btn-primary{
+    margin: 0px 8px;
+}
+/* nav */
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
+/* nav */

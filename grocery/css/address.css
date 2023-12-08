@@ -1,0 +1,28 @@
+.address-list {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:  0 10px 30px rgba(0,0,0,0.15);
+  }
+
+  .address-item {
+    margin-bottom: 20px;
+  }
+  button {
+    width: 157px;
+    border-radius: 23px;
+    background-color:  rgb(227, 83, 53);
+    border:  rgb(227, 83, 53);
+    color: #f1f1f1;
+   
+}
+  
+  /* nav */
+.nav-item a{
+    color: black;
+    text-decoration: none;
+}
+/* nav */
